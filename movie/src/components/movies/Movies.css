@@ -1,0 +1,50 @@
+/* item */
+a.movie_link {
+  text-decoration: none;
+  display: flex;
+  color: inherit;
+}
+a.movie_link:hover{
+   color: inherit;
+}
+/* title */
+a.movie_link .card-title{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 4px;
+    line-height: 1.35em;
+}
+/*  date  */
+a.movie_link .card-text{
+    color: #333;
+}
+a.movie_link .card{
+  height: 100%;
+}
+.movie_link a:link {
+  text-decoration: none;
+}
+
+.movie_link a:visited {
+  text-decoration: none;
+}
+
+.movie_link a:hover {
+  text-decoration: none;
+}
+
+.movie_link a:active {
+  text-decoration: none;
+}
+
+
+/* pagination */
+.pagination .page-item.active .sr-only{
+    display: none;
+}
+
+.pagination_center {
+    width: 40% !important;
+    justify-content: center !important;
+    margin:auto !important;
+}
