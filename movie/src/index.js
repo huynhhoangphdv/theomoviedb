@@ -12,7 +12,6 @@ import {
   Route
 } from "react-router-dom";
 ReactDOM.render(
-  <React.StrictMode>
     <Router>
       <Switch>
           <Route path="/:id">
@@ -22,8 +21,7 @@ ReactDOM.render(
           <Movies />
         </Route>
       </Switch>
-    </Router>
-  </React.StrictMode>,
+    </Router>,
   document.getElementById('root')
 );
 
